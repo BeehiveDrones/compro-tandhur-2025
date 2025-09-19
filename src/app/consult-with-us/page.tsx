@@ -144,10 +144,10 @@ export default function ContactPage() {
     className="w-full border border-[#7DAB18] p-2 text-xs md:text-base focus:outline-none focus:ring-2 focus:ring-[#3E5641] bg-white"
   >
     <option value="">Select Category</option>
-    <option value="Agriculture">Agriculture</option>
-    <option value="Desa">Desa</option>
-    <option value="Fish">Fisheries</option>
-    <option value="Spatial">Spatial</option>
+    <option value="Agriculture">TANDHURAgriculture</option>
+    <option value="Desa">TANDHURDesa</option>
+    <option value="Fish">TANDHURFisheries</option>
+    <option value="Spatial">TANDHURSpatial</option>
   </select>
 </div>
 
@@ -156,7 +156,6 @@ export default function ContactPage() {
   <>
     <textarea
       name="message"
-      placeholder={`Message about ${selectedCategory}`}
       rows={4}
       required
       className="w-full border border-[#7DAB18] p-2 text-xs md:text-base focus:outline-none focus:ring-2 focus:ring-[#3E5641] md:h-32"
