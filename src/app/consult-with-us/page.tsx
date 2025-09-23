@@ -65,19 +65,19 @@ export default function ContactPage() {
         {/* CONTACT INFO */}
         <motion.div initial={{ opacity: 0, x: 30 }} whileInView={{ opacity: 1, x: 0 }} transition={{ duration: 0.6 }} className="space-y-2 md:space-y-4">
           <h2 className="text-xl font-bold font-ubuntu">Get in Touch</h2>
-          <p className="text-sm font-semibold">WE’RE ALWAYS HAPPY TO HELP. Get in touch with us today!</p>
 
-          <p className="flex items-center gap-2">
+
+          <p className="flex items-center gap-2 font-nunito-sans">
             <Phone size={18} /> +6281 8999 771
           </p>
-          <p className="flex items-center gap-2">
+          <p className="flex items-center gap-2 font-nunito-sans">
             <Mail size={18} />
             <a href="mailto:marketing@lumbungmuncul.com" className="underline">
               marketing@lumbungmuncul.com
             </a>
           </p>
-          <p className="flex items-start gap-2">
-            <MapPin size={20} className="mt-1" />
+          <p className="flex items-start gap-2 font-nunito-sans">
+            <MapPin size={20} className="mt-1 font-nunito-sans" />
             Jl. Kalireso No.8, Kumendung, Candibinangun, Kec. Pakem, Sleman, DIY 55582
           </p>
 
@@ -86,14 +86,14 @@ export default function ContactPage() {
             <div>
               <h3 className="font-semibold mb-2 font-ubuntu text-xl">We are on Socials</h3>
               <div className="space-y-1">
-                <div className="grid grid-cols-2 gap-4">
-                  <motion.a whileHover={{ scale: 1.05, color: "#000" }} href="https://www.instagram.com/tandhur.id/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 cursor-pointer">
+                <div className="grid grid-cols-2 gap-4 font-nonito-sans">
+                  <motion.a whileHover={{ scale: 1.05, color: "#000" }} href="https://www.instagram.com/tandhur.id/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 cursor-pointer font-nunito-sans">
                     <Instagram size={18} /> Instagram
                   </motion.a>
-                  <motion.a whileHover={{ scale: 1.05, color: "#000" }} href="https://www.youtube.com/watch?v=FWE1epVsX5M" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 cursor-pointer">
+                  <motion.a whileHover={{ scale: 1.05, color: "#000" }} href="https://www.youtube.com/watch?v=FWE1epVsX5M" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 cursor-pointer font-nunito-sans">
                     <Youtube size={18} /> YouTube
                   </motion.a>
-                  <motion.a whileHover={{ scale: 1.05, color: "#000" }} href="https://www.tiktok.com/@tandhur.id" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 cursor-pointer">
+                  <motion.a whileHover={{ scale: 1.05, color: "#000" }} href="https://www.tiktok.com/@tandhur.id" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 cursor-pointer font-nunito-sans">
                     <svg width={18} height={18} viewBox="0 0 24 24" fill="none">
                       <path
                         d="M9.5 3v13.25a2.25 2.25 0 1 1-2.25-2.25h2.25M14.5 3c.5 2.5 2.5 4 5 4v7.25a4.25 4.25 0 1 1-4.25-4.25h2.25"
@@ -105,7 +105,7 @@ export default function ContactPage() {
                     </svg>
                     TikTok
                   </motion.a>
-                  <motion.a whileHover={{ scale: 1.05, color: "#000" }} href="https://www.linkedin.com/company/lumbung-muncul-sejahtera/?viewAsMember=true" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 cursor-pointer">
+                  <motion.a whileHover={{ scale: 1.05, color: "#000" }} href="https://www.linkedin.com/company/lumbung-muncul-sejahtera/?viewAsMember=true" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 cursor-pointer font-nunito-sans">
                     <Linkedin size={18} /> LinkedIn
                   </motion.a>
                 </div>
@@ -129,11 +129,11 @@ export default function ContactPage() {
         <h2 className="text-2xl font-bold text-center mb-1">Drop Us a Line</h2>
         <p className="text-center text-sm mb-8">Consult with us about your needs.</p>
 
-        <form ref={formRef} onSubmit={handleSubmit} className="max-w-full md:max-w-2xl mx-auto space-y-2 md:space-y-4">
-          <input type="text" name="user_name" placeholder="Your name" required className="w-full border border-[#7DAB18] p-2  text-xs md:text-base focus:outline-none focus:ring-2 focus:ring-[#3E5641]" />
-          <input type="text" name="user_whatsapp" placeholder="Your WhatsApp" required className="w-full border border-[#7DAB18] p-2 text-xs md:text-base focus:outline-none focus:ring-2 focus:ring-[#3E5641]" />
-          <input type="email" name="user_email" placeholder="Your email" required className="w-full border border-[#7DAB18] p-2 text-xs md:text-base focus:outline-none focus:ring-2 focus:ring-[#3E5641]" />
-          <input type="text" name="user_address" placeholder="Your address" className="w-full border border-[#7DAB18] p-2 text-xs md:text-base focus:outline-none focus:ring-2 focus:ring-[#3E5641]" />
+        <form ref={formRef} onSubmit={handleSubmit} className="max-w-full md:max-w-2xl mx-auto space-y-2 md:space-y-4 font-nonito-sans">
+          <input type="text" name="user_name" placeholder="Your name" required className="w-full border border-[#7DAB18] p-2  text-xs md:text-base focus:outline-none focus:ring-2 focus:ring-[#3E5641] font-nunito-sans" />
+          <input type="text" name="user_whatsapp" placeholder="Your WhatsApp" required className="w-full border border-[#7DAB18] p-2 text-xs md:text-base focus:outline-none focus:ring-2 focus:ring-[#3E5641] font-nunito-sans" />
+          <input type="email" name="user_email" placeholder="Your email" required className="w-full border border-[#7DAB18] p-2 text-xs md:text-base focus:outline-none focus:ring-2 focus:ring-[#3E5641] font-nunito-sans" />
+          <input type="text" name="user_address" placeholder="Your address" className="w-full border border-[#7DAB18] p-2 text-xs md:text-base focus:outline-none focus:ring-2 focus:ring-[#3E5641] font-nunito-sans" />
                     {/* Category Dropdown */}
           <div className="w-full">
   <select 
@@ -141,7 +141,7 @@ export default function ContactPage() {
     value={selectedCategory}
     onChange={(e) => setSelectedCategory(e.target.value)}
     required 
-    className="w-full border border-[#7DAB18] p-2 text-xs md:text-base focus:outline-none focus:ring-2 focus:ring-[#3E5641] bg-white"
+    className="w-full border border-[#7DAB18] p-2 text-xs md:text-base focus:outline-none focus:ring-2 focus:ring-[#3E5641] bg-white font-nunito-sans"
   >
     <option value="">Select Category</option>
     <option value="Agriculture">TANDHURAgriculture</option>
@@ -175,7 +175,7 @@ export default function ContactPage() {
 </form>
 
 {submitted && (
-  <motion.p initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="text-green-600 mt-4 text-center">
+  <motion.p initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="text-green-600 mt-4 text-center font-nunito-sans">
     ✅ Thank you! Your message has been sent.
   </motion.p>
 )}
