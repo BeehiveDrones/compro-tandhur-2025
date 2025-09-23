@@ -49,7 +49,7 @@ export default function HeroSection() {
 
       {/* Button */}
       <a
-        href="https://tandhur-desa-tamanmartani.beehivedrones.com"
+        href="/consult-with-us"
         target="_blank"
         rel="noopener noreferrer"
         className={`mt-3 inline-flex items-center gap-1.5 bg-[#F3D34A] text-white 

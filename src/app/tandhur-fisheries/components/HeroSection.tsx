@@ -51,13 +51,13 @@ export default function HeroSection() {
 
       {/* Button */}
       <a
-        href="https://fisheries.tandhur.id/"
+        href="/consult-with-us"
         target="_blank"
         rel="noopener noreferrer"
         className={`mt-3 inline-flex items-center gap-1.5 bg-[#145DA0] text-white 
              px-3 py-1.5 rounded-md w-fit
              hover:bg-blue-700 transition text-md hover:-translate-y-0.5 
-             hover:shadow-md group font-nunito-sans transition-all duration-1000 delay-700 ${
+             hover:shadow-md group font-nunito-sans duration-1000 delay-700 ${
                isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5"
              }`}
       >

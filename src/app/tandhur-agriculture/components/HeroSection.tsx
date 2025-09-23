@@ -49,7 +49,7 @@ export default function HeroSection() {
 
       {/* Button */}
       <motion.a
-        href="https://agri.tandhur.id/"
+        href="/consult-with-us"
         target="_blank"
         rel="noopener noreferrer"
         initial={{ opacity: 0, y: 10 }}

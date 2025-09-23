@@ -8,16 +8,20 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-8 sm:px-8 lg:px-10">
         {/* Top Navigation + Social Media */}
         <div className="flex flex-col sm:flex-row justify-between items-center gap-4 border-b border-white/30 py-2">
-          <nav className="flex flex-wrap justify-center sm:justify-start gap-6 font-ubuntu">
-            <Link href="/about-us" className="text-sm font-bold hover:text-gray-300 transition-colors">
-              About Us
+          <nav className="flex flex-wrap justify-center sm:justify-start mt-2 gap-6 ">
+            <Link 
+  href="https://compro-lumbung-2025.vercel.app/about-us" 
+  className="text-sm font-bold hover:text-gray-300 transition-colors font-josefin-sans"
+>
+  About Us
+</Link>
+
+            <Link href="/consult-with-us" className=" text-sm font-bold hover:text-gray-300 transition-colors ">
+              Free Trial 
             </Link>
-            <Link href="/contact-us" className="text-sm font-bold hover:text-gray-300 transition-colors">
-              Contact Us
-            </Link>
-            <Link href="/app" className="text-sm font-bold hover:text-gray-300 transition-colors">
+            {/* <Link href="/app" className="text-sm font-bold hover:text-gray-300 transition-colors">
               TANDHUR Apps
-            </Link>
+            </Link> */}
           </nav>
 
           <div className="flex gap-4">
@@ -42,16 +46,16 @@ export default function Footer() {
 
           {/* About Us */}
           <div className="lg:col-span-5 flex flex-col py-4">
-            <h3 className="font-semibold text-base mb-2 font-ubuntu">About Us</h3>
-            <p className="text-[13px] leading-relaxed text-white text-justify font-roboto max-w-[90%]">
+            <h3 className="font-semibold text-base mb-2 font-josefin-sans">About Us</h3>
+            <p className="text-[13px] leading-relaxed text-white text-justify font-nunito-sans max-w-[90%]">
               TANDHUR, one of the flagship products of PT Lumbung Muncul Sejahtera, is a user-friendly WebApp-based ERP equipped with dynamic machine learning for recording and monitoring agricultural, village, and fisheries data, as well as spatial analysis.
             </p>
           </div>
 
           {/* Contacts */}
           <div className="lg:col-span-3 flex flex-col py-4">
-            <h3 className="font-semibold text-base mb-2 font-ubuntu">Contacts</h3>
-            <div className="text-[13px] space-y-1 font-roboto">
+            <h3 className="font-semibold text-base mb-2 font-josefin-sans">Contacts</h3>
+            <div className="text-[13px] space-y-1 font-nunito-sans">
               <div>
                 <span>Email </span>
                 <a href="mailto:marketing@lumbungmuncul.com" className="hover:text-gray-300 transition-colors break-all">
@@ -77,7 +81,7 @@ export default function Footer() {
 
         {/* Copyright */}
         <div className="py-2">
-          <p className="text-center text-xs text-white">Copyright © 2025 PT Lumbung Muncul Sejahtera. All Rights Reserved.</p>
+          <p className="text-center text-xs text-white font-josefin-sans">Copyright © 2025 PT Lumbung Muncul Sejahtera. All Rights Reserved.</p>
         </div>
       </div>
     </footer>
