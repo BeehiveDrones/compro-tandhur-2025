@@ -114,7 +114,7 @@ export default function Navbar({ onMenuClick }: { onMenuClick: () => void }) {
       <div className="ml-auto flex items-center gap-4 relative">
         {/* Contact Us link */}
         <Link
-          href="/contact-us"
+          href="/consult-with-us"
           className="text-xs md:text-sm underline text-gray-700 whitespace-nowrap font-nunito-sans"
         >
           Contact Us

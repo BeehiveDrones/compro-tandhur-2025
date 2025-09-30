@@ -9,15 +9,15 @@ export default function Footer() {
         {/* Top Navigation + Social Media */}
         <div className="flex flex-col sm:flex-row justify-between items-center gap-4 border-b border-white/30 py-2">
           <nav className="flex flex-wrap justify-center sm:justify-start mt-2 gap-6 ">
-            <Link 
-  href="https://compro-lumbung-2025.vercel.app/about-us" 
-  className="text-sm font-bold hover:text-gray-300 transition-colors font-josefin-sans"
->
-  About Us
-</Link>
+            <Link
+              href="http://lumbungmuncul.com/about-us"
+              className="text-sm font-bold hover:text-gray-300 transition-colors font-josefin-sans"
+            >
+              About Us
+            </Link>
 
             <Link href="/consult-with-us" className=" text-sm font-bold hover:text-gray-300 transition-colors ">
-              Free Trial 
+              Free Trial
             </Link>
             {/* <Link href="/app" className="text-sm font-bold hover:text-gray-300 transition-colors">
               TANDHUR Apps
@@ -74,7 +74,9 @@ export default function Footer() {
           {/* Partner Logo (Right) */}
           <div className="lg:col-span-2 flex flex-col items-center lg:items-end">
             <div className="relative w-34 h-34 lg:w-38 lg:h-38">
-              <Image src="/AllLogo/6.png" alt="Beehive Drones Partner Logo" fill className="object-contain opacity-90 hover:opacity-100 transition-opacity" priority />
+              <Link href="http://lumbungmuncul.com/" target="_blank" rel="noopener noreferrer">
+                <Image src="/AllLogo/6.png" alt="Beehive Drones Partner Logo" fill className="object-contain opacity-90 hover:opacity-100 transition-opacity" priority />
+              </Link>
             </div>
           </div>
         </div>
